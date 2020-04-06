@@ -12,7 +12,9 @@
         android:id="@+id/imageView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_image"
         android:layout_marginBottom="@dimen/margin_bottom"
+        android:contentDescription="@string/image"
         app:srcCompat="@drawable/ic_launcher_foreground" />
 
     <TextView
@@ -27,4 +29,36 @@
         android:textAlignment="center"
         android:textColor="@android:color/black"
         android:textSize="@dimen/text_size" />
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_layout"
+        android:ems="10"
+        android:fontFamily="@font/adamina"
+        android:hint="@string/email"
+        android:inputType="textEmailAddress"
+        android:textAlignment="center"
+        android:autofillHints="" />
+
+    <EditText
+        android:id="@+id/pass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_layout"
+        android:ems="10"
+        android:fontFamily="@font/adamina"
+        android:hint="@string/password"
+        android:inputType="textPassword"
+        android:textAlignment="center"
+        android:autofillHints="" />
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_layout"
+        android:background="@color/colorAccent"
+        android:text="@string/done" />
 </LinearLayout>

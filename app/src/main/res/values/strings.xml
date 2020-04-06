@@ -1,4 +1,8 @@
 <resources>
     <string name="app_name">cCare</string>
     <string name="title">LOG IN</string>
+    <string name="email">email@hotmail.com</string>
+    <string name="image">image</string>
+    <string name="password">Password</string>
+    <string name="done">Done</string>
 </resources>

@@ -5,4 +5,10 @@
     <string name="image">image</string>
     <string name="password">Password</string>
     <string name="done">Done</string>
+    <string name="older_person_data">Older person data</string>
+    <string name="responsible_registration">Responsible Registration</string>
+    <string name="name_lastname">Name and surname</string>
+    <string name="number_tlf">Phone number</string>
+    <string name="relation">Relationship</string>
+    <string name="other_contact">Other contact</string>
 </resources>

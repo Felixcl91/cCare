@@ -1,6 +1,111 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout
-    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_image"
+        android:layout_marginTop="@dimen/margin_image"
+        android:layout_marginBottom="@dimen/margin_bottom"
+        android:contentDescription="@string/image"
+        app:srcCompat="@mipmap/c_care" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_layout2"
+        android:fontFamily="@font/adamina"
+        android:text="@string/responsible_registration"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/text_size" />
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_layout2"
+        android:autofillHints=""
+        android:ems="10"
+        android:fontFamily="@font/adamina"
+        android:hint="@string/name_lastname"
+        android:inputType="textPersonName"
+        android:textAlignment="center" />
+
+    <EditText
+        android:id="@+id/tlf"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_layout2"
+        android:autofillHints=""
+        android:fontFamily="@font/adamina"
+        android:hint="@string/number_tlf"
+        android:inputType="number"
+        android:textAlignment="center"
+        android:textColor="@android:color/black" />
+
+    <EditText
+        android:id="@+id/relation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_layout2"
+        android:autofillHints=""
+        android:ems="10"
+        android:fontFamily="@font/adamina"
+        android:hint="@string/relation"
+        android:inputType="textPersonName"
+        android:textAlignment="center"
+        android:textColor="@android:color/black" />
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_layout2"
+        android:autofillHints=""
+        android:ems="10"
+        android:fontFamily="@font/adamina"
+        android:hint="@string/email"
+        android:inputType="textEmailAddress"
+        android:textAlignment="center"
+        android:textColor="@android:color/black" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_layout2"
+        android:autofillHints=""
+        android:ems="10"
+        android:fontFamily="@font/adamina"
+        android:hint="@string/other_contact"
+        android:inputType="textPersonName"
+        android:textAlignment="center" />
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_layout2"
+        android:ems="10"
+        android:fontFamily="@font/adamina"
+        android:hint="@string/number_tlf"
+        android:inputType="phone"
+        android:textAlignment="center"
+        android:autofillHints="" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/margin_left"
+        android:layout_marginTop="@dimen/margin_layout2"
+        android:layout_marginRight="@dimen/margin_left"
+        android:text="@string/done" />
+</LinearLayout>

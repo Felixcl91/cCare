@@ -11,11 +11,11 @@
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="@dimen/height_image"
         android:layout_marginTop="@dimen/margin_image"
         android:layout_marginBottom="@dimen/margin_bottom"
         android:contentDescription="@string/image"
-        app:srcCompat="@drawable/ic_launcher_foreground" />
+        app:srcCompat="@mipmap/c_care" />
 
     <TextView
         android:id="@+id/textView"

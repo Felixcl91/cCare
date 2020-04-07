@@ -26,6 +26,15 @@
         android:textColor="@android:color/black"
         android:textSize="@dimen/text_size" />
 
+    <Spinner
+        android:id="@+id/user"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/margin_left"
+        android:layout_marginTop="@dimen/margin_layout2"
+        android:layout_marginRight="@dimen/margin_left"
+        android:spinnerMode="dialog" />
+
     <EditText
         android:id="@+id/username"
         android:layout_width="match_parent"
@@ -107,5 +116,6 @@
         android:layout_marginLeft="@dimen/margin_left"
         android:layout_marginTop="@dimen/margin_layout2"
         android:layout_marginRight="@dimen/margin_left"
+        android:background="@color/colorAccent"
         android:text="@string/done" />
 </LinearLayout>

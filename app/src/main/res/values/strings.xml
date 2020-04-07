@@ -11,4 +11,10 @@
     <string name="number_tlf">Phone number</string>
     <string name="relation">Relationship</string>
     <string name="other_contact">Other contact</string>
+    <string name="address">Address</string>
+    <string name="birth">birth</string>
+    <string name="sex">Sex</string>
+    <string name="medical_data">Medical data</string>
+    <string name="allergies">Allergies</string>
+    <string name="allergies_types">Type allergies</string>
 </resources>

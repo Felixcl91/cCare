@@ -60,5 +60,6 @@
         android:layout_marginTop="@dimen/margin_layout"
         android:layout_marginRight="@dimen/margin_left"
         android:background="@color/colorAccent"
+        android:fontFamily="@font/adamina"
         android:text="@string/done" />
 </LinearLayout>

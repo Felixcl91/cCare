@@ -23,4 +23,9 @@
     <string name="permanent_parameters">persona con Alzheimer, Diabetes, movilidad reducida, demencia senil...</string>
     <string name="title_temporal_parameters">Temporal parameters</string>
     <string name="temporal_parameters">enfermedad, reposo, ausencia en el hogar, infección</string>
+    <string name="title_routine_schedule">Routine schedule</string>
+    <string name="title_sleep_time">Sleep time and desviation margin</string>
+    <string name="sleep_time">7 hours and 2 hours desviations</string>
+    <string name="title_stay_bathroom">Stay in the bathroom</string>
+    <string name="time_bathroom">30 minutes</string>
 </resources>

@@ -1,6 +1,88 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout
-    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_image"
+        android:layout_marginTop="@dimen/margin_image"
+        android:contentDescription="@string/image"
+        app:srcCompat="@mipmap/c_care" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_layout2"
+        android:text="@string/title_routine_schedule"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/text_size" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_layout2"
+        android:fontFamily="@font/adamina"
+        android:text="@string/title_sleep_time"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/editText4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/margin_left"
+        android:layout_marginTop="@dimen/margin_layout2"
+        android:layout_marginRight="@dimen/margin_left"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/sleep_time"
+        android:inputType="textMultiLine" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_layout2"
+        android:fontFamily="@font/adamina"
+        android:text="@string/title_stay_bathroom"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/stay_bathroom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/margin_left"
+        android:layout_marginTop="@dimen/margin_layout2"
+        android:layout_marginRight="@dimen/margin_left"
+        android:ems="10"
+        android:fontFamily="@font/adamina"
+        android:hint="@string/time_bathroom"
+        android:inputType="textMultiLine"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:autofillHints="" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/margin_left"
+        android:layout_marginTop="@dimen/margin_layout2"
+        android:layout_marginRight="@dimen/margin_left"
+        android:background="@color/colorAccent"
+        android:fontFamily="@font/adamina"
+        android:text="@string/done"
+        android:textSize="18sp" />
+
+</LinearLayout>

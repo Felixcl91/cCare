@@ -9,4 +9,5 @@
     <dimen name="margin_left">50dp</dimen>
     <dimen name="height_image">100dp</dimen>
     <dimen name="margin_layout2">20dp</dimen>
+    <dimen name="width_sleep">100dp</dimen>
 </resources>

@@ -17,4 +17,6 @@
     <string name="medical_data">Medical data</string>
     <string name="allergies">Allergies</string>
     <string name="allergies_types">Type allergies</string>
+    <string name="blood_type">Blood type</string>
+    <string name="medications_you_take">Medications you take</string>
 </resources>

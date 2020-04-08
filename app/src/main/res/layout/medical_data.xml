@@ -26,20 +26,8 @@
         android:textColor="@android:color/black"
         android:textSize="@dimen/text_size" />
 
-    <RadioButton
-        android:id="@+id/radioButton"
-        android:layout_width="150dp"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="@dimen/margin_left"
-        android:layout_marginTop="@dimen/margin_layout2"
-        android:layout_marginRight="@dimen/margin_left"
-        android:fontFamily="@font/adamina"
-        android:text="@string/allergies"
-        android:textColor="@android:color/black"
-        android:textSize="18sp" />
-
     <EditText
-        android:id="@+id/editText"
+        android:id="@+id/allergies"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="@dimen/margin_layout2"
@@ -50,4 +38,43 @@
         android:textAlignment="center"
         android:textColor="@android:color/black"
         android:autofillHints="" />
+
+    <EditText
+        android:id="@+id/blood_type"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_layout2"
+        android:autofillHints=""
+        android:ems="10"
+        android:fontFamily="@font/adamina"
+        android:hint="@string/blood_type"
+        android:inputType="textPersonName"
+        android:textAlignment="center"
+        android:textColor="@android:color/black" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_layout2"
+        android:ems="10"
+        android:fontFamily="@font/adamina"
+        android:hint="@string/medications_you_take"
+        android:inputType="textPersonName"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:autofillHints="" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/margin_left"
+        android:layout_marginTop="@dimen/margin_layout2"
+        android:layout_marginRight="@dimen/margin_left"
+        android:background="@color/colorAccent"
+        android:fontFamily="@font/adamina"
+        android:text="@string/done"
+        android:textSize="18sp" />
+
 </LinearLayout>

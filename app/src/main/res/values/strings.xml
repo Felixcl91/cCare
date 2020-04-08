@@ -19,4 +19,8 @@
     <string name="allergies_types">Type allergies</string>
     <string name="blood_type">Blood type</string>
     <string name="medications_you_take">Medications you take</string>
+    <string name="title_permanent_parameters">Permanent parameters</string>
+    <string name="permanent_parameters">persona con Alzheimer, Diabetes, movilidad reducida, demencia senil...</string>
+    <string name="title_temporal_parameters">Temporal parameters</string>
+    <string name="temporal_parameters">enfermedad, reposo, ausencia en el hogar, infección</string>
 </resources>

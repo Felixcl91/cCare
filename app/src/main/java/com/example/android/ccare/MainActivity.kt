@@ -1,5 +1,6 @@
 package com.example.android.ccare
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Toast
@@ -17,11 +18,15 @@ class MainActivity : AppCompatActivity() {
 
             val userStr = username.text?.toString()
             val passStr = pass.text?.toString()
+            val intent: Intent = Intent(this, Responsible::class.java)
 
             loginRequest.doLogin(userStr, passStr) {success ->
                 val message = if (success) "Success" else "Failure"
-                Toast.makeText(this@MainActivity, message, Toast.LENGTH_LONG).show()
+                //Toast.makeText(this@MainActivity, message, Toast.LENGTH_LONG).show()
+               startActivity(intent)
             }
+
+
 
         }
 

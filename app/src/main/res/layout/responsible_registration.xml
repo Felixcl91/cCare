@@ -86,7 +86,7 @@
         android:textColor="@android:color/black" />
 
     <EditText
-        android:id="@+id/editText2"
+        android:id="@+id/contact"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="@dimen/margin_layout2"
@@ -98,7 +98,7 @@
         android:textAlignment="center" />
 
     <EditText
-        android:id="@+id/editText3"
+        android:id="@+id/phone_contact"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="@dimen/margin_layout2"
@@ -110,7 +110,7 @@
         android:autofillHints="" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/submit"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="@dimen/margin_left"

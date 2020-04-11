@@ -8,7 +8,7 @@ import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
 
-    val loginRequest = LoginRequest()
+    private val loginRequest = LoginRequest()
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -18,12 +18,15 @@ class MainActivity : AppCompatActivity() {
 
             val userStr = username.text?.toString()
             val passStr = pass.text?.toString()
+
             val intent: Intent = Intent(this, Responsible::class.java)
 
             loginRequest.doLogin(userStr, passStr) {success ->
-                val message = if (success) "Success" else "Failure"
-                //Toast.makeText(this@MainActivity, message, Toast.LENGTH_LONG).show()
-               startActivity(intent)
+                val message = if (success) startActivity(intent) else "Failure"
+
+
+
+
             }
 
 

@@ -33,6 +33,7 @@
         android:layout_marginLeft="@dimen/margin_left"
         android:layout_marginTop="@dimen/margin_layout2"
         android:layout_marginRight="@dimen/margin_left"
+        android:backgroundTint="@color/colorAccent"
         android:spinnerMode="dialog" />
 
     <EditText
@@ -41,6 +42,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="@dimen/margin_layout2"
         android:autofillHints=""
+        android:backgroundTint="@color/colorAccent"
         android:ems="10"
         android:fontFamily="@font/adamina"
         android:hint="@string/name_lastname"
@@ -53,6 +55,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="@dimen/margin_layout2"
         android:autofillHints=""
+        android:backgroundTint="@color/colorAccent"
         android:fontFamily="@font/adamina"
         android:hint="@string/number_tlf"
         android:inputType="number"
@@ -65,6 +68,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="@dimen/margin_layout2"
         android:autofillHints=""
+        android:backgroundTint="@color/colorAccent"
         android:ems="10"
         android:fontFamily="@font/adamina"
         android:hint="@string/relation"
@@ -78,6 +82,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="@dimen/margin_layout2"
         android:autofillHints=""
+        android:backgroundTint="@color/colorAccent"
         android:ems="10"
         android:fontFamily="@font/adamina"
         android:hint="@string/email"
@@ -91,6 +96,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="@dimen/margin_layout2"
         android:autofillHints=""
+        android:backgroundTint="@color/colorAccent"
         android:ems="10"
         android:fontFamily="@font/adamina"
         android:hint="@string/other_contact"
@@ -102,12 +108,13 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="@dimen/margin_layout2"
+        android:autofillHints=""
+        android:backgroundTint="@color/colorAccent"
         android:ems="10"
         android:fontFamily="@font/adamina"
         android:hint="@string/number_tlf"
         android:inputType="phone"
-        android:textAlignment="center"
-        android:autofillHints="" />
+        android:textAlignment="center" />
 
     <Button
         android:id="@+id/submit"

@@ -22,10 +22,8 @@ class MainActivity : AppCompatActivity() {
             val intent: Intent = Intent(this, Responsible::class.java)
 
             loginRequest.doLogin(userStr, passStr) {success ->
-                val message = if (success) startActivity(intent) else "Failure"
-
-
-
+                val message = if (success) startActivity(intent)
+                else Toast.makeText(this, "Authentication failed.", Toast.LENGTH_LONG).show()
 
             }
 

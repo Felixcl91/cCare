@@ -7,7 +7,11 @@ class LoginRequest {
         val validPass = pass != null && pass.isNotEmpty()*/
         val validUser = !user.isNullOrEmpty()
         val validPass = !pass.isNullOrEmpty()
+        //val validTlf :Boolean = tlf != null
+        //val validRelation :Boolean = !relation.isNullOrEmpty()
 
         callback.invoke(validUser && validPass)
     }
 }
+
+

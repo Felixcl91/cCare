@@ -23,7 +23,9 @@ class MainActivity : AppCompatActivity() {
 
             loginRequest.doLogin(userStr, passStr) {success ->
                 val message = if (success) startActivity(intent)
-                else Toast.makeText(this, "Authentication failed.", Toast.LENGTH_LONG).show()
+                else
+                    toast(message = "Authentication failed.")
+                    //Toast.makeText(this, "Authentication failed.", Toast.LENGTH_LONG).show()
 
             }
 

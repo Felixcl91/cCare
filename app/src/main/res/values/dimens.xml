@@ -10,4 +10,5 @@
     <dimen name="height_image">70dp</dimen>
     <dimen name="margin_layout2">20dp</dimen>
     <dimen name="width_sleep">100dp</dimen>
+    <dimen name="width_radio">150dp</dimen>
 </resources>

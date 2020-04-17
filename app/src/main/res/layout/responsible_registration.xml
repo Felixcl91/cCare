@@ -26,15 +26,24 @@
         android:textColor="@android:color/black"
         android:textSize="@dimen/text_size" />
 
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_layout2"
+        android:fontFamily="@font/adamina"
+        android:text="@string/select_user"
+        android:textAlignment="center"
+        android:textSize="18sp" />
+
     <Spinner
         android:id="@+id/user"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="@dimen/margin_left"
-        android:layout_marginTop="@dimen/margin_layout2"
-        android:layout_marginRight="@dimen/margin_left"
+        android:layout_marginLeft="100dp"
+        android:layout_marginRight="100dp"
         android:backgroundTint="@color/colorAccent"
-        android:spinnerMode="dialog" />
+        android:spinnerMode="dropdown" />
 
     <EditText
         android:id="@+id/username"

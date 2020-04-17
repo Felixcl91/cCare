@@ -12,8 +12,8 @@
     <string name="relation">Relationship</string>
     <string name="other_contact">Other contact</string>
     <string name="address">Address</string>
-    <string name="birth">birth</string>
-    <string name="sex">Sex</string>
+    <string name="birth">Birth</string>
+    <string name="sex">Select sex:</string>
     <string name="medical_data">Medical data</string>
     <string name="allergies">Allergies</string>
     <string name="allergies_types">Type allergies</string>
@@ -28,4 +28,5 @@
     <string name="sleep_time">7 hours and 2 hours desviations</string>
     <string name="title_stay_bathroom">Stay in the bathroom</string>
     <string name="time_bathroom">30 minutes</string>
+    <string name="select_user">Select user:</string>
 </resources>
